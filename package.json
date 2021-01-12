@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-ghost",
-  "description": "A starter template to build lightning fast websites with Ghost and Gatsby",
+  "name": "edward-haddican-personal-website",
+  "description": "My Portfolio Website",
   "version": "1.0.0",
   "license": "MIT",
-  "author": "Ghost Foundation",
+  "author": "Edward Haddican",
   "homepage": "https://docs.ghost.org/api/gatsby/",
   "repository": {
     "type": "git",
@@ -19,8 +19,15 @@
     "url": "https://github.com/tryghost/gatsby-starter-ghost/issues"
   },
   "keywords": [
-    "gatsby",
-    "ghost"
+    "edward haddican",
+    "software engineer",
+    "programmer",
+    "programming",
+    "front-end",
+    "fullstack",
+    "full stack",
+    "JavaScript",
+    "JS"
   ],
   "main": "n/a",
   "scripts": {
