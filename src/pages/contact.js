@@ -32,28 +32,6 @@ const contactMe = () => {
                 </div>
             </div>
         </Layout>
-
-        // <Layout>
-        //     <div className="container">
-        //         <div className="content" style={{ textAlign: `center` }}>
-        //             <h1 className="content-title">Contact Me</h1>
-        //             <p>Email: edwardhaddican@gmail.com</p>
-        //             <p>Cell: 845-642-9834</p>
-        //             <p>
-        //                 <span>LinkedIn: </span>
-        //                 <a href="https://www.linkedin.com/in/edhaddican/">
-        //                     https://www.linkedin.com/in/edhaddican/
-        //                 </a>
-        //             </p>
-        //             <p>
-        //                 <span>GitHub: </span>
-        //                 <a href="https://github.com/edwardhaddican">
-        //                     https://github.com/edwardhaddican
-        //                 </a>
-        //             </p>
-        //         </div>
-        //     </div>
-        // </Layout>
     );
 };
 

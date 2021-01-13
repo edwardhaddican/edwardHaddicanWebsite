@@ -26,7 +26,6 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
     site.description = "My Portfolio Website"
     site.navigation = [
         { label: "Home", url: "/" },
-        { label: "Projects", url: "/projects" },
         { label: "Lectures", url: "/lectures" },
         { label: "Resume", url: "/resume" },
         { label: "Contact Me", url: "/contact" },

@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 
 import { Layout, PostCard, Pagination } from '../components/common'
 import { MetaData } from '../components/common/meta'
+import {allProjectData} from '../projectData/index'
 
 /**
 * Main index page (home page)
@@ -16,16 +17,28 @@ import { MetaData } from '../components/common/meta'
 const Index = ({ data, location, pageContext }) => {
     const posts = data.allGhostPost.edges
     // console.log("posts in templates/index", posts)
+    console.log("allProjectData", allProjectData)
 
     return (
         <>
             <MetaData location={location} />
-            <Layout isHome={true}>
+            {/* <Layout isHome={true}>
                 <div className="container">
                     <section className="post-feed">
                         {posts.map(({ node }) => (
                             // The tag below includes the markup for each post - components/common/PostCard.js
                             <PostCard key={node.id} post={node} />
+                        ))}
+                    </section>
+                    <Pagination pageContext={pageContext} />
+                </div>
+            </Layout> */}
+            <Layout isHome={true}>
+                <div className="container">
+                    <section className="post-feed">
+                        {allProjectData.map((project) => (
+                            // The tag below includes the markup for each post - components/common/PostCard.js
+                            <PostCard key={project.id} project={project} />
                         ))}
                     </section>
                     <Pagination pageContext={pageContext} />
