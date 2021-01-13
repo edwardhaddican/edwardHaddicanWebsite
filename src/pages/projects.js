@@ -1,14 +1,16 @@
 import React from "react";
 import { Layout } from "../components/common";
 
-const Projects = () => {
+const projects = () => {
     return (
         <Layout>
-            <div>
-                <h1>Projects</h1>
+            <div className="container">
+                <div className="content" style={{ textAlign: `center` }}>
+                    <h1 className="content-title">Projects</h1>
+                </div>
             </div>
         </Layout>
     );
 };
 
-export default Projects;
+export default projects;
