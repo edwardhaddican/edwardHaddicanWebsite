@@ -9,14 +9,14 @@
         projectImage: "https://s.abcnews.com/images/Lifestyle/ht_pudding_the_fox_03_mt_140821_16x9_992.jpg",
     }
 
-    const tempData1 = {
+    const strawberryShopper = {
         id: 2,
         title: "Strawberry Shopper",
         description: "A Sales Website for all your Strawberry Needs",
         role: "Fullstack Developer",
-        deployedLink: "",
-        githubLink: "",
-        projectImage: "https://s.abcnews.com/images/Lifestyle/ht_pudding_the_fox_03_mt_140821_16x9_992.jpg",
+        deployedLink: "http://strawberry-shopper.herokuapp.com/",
+        githubLink: "https://github.com/2003-Spectacular-Strawberries/Strawberry-Shopper",
+        projectImage: "https://hips.hearstapps.com/clv.h-cdn.co/assets/15/22/2560x1728/gallery-1432664914-strawberry-facts1.jpg?resize=768:*",
     }
 
     const tempData2 = {
@@ -38,7 +38,7 @@
         projectImage: "https://s.abcnews.com/images/Lifestyle/ht_pudding_the_fox_03_mt_140821_16x9_992.jpg",
     }
 
-    const allProjectData = [spriteFox, tempData1, tempData2, tempData3]
+    const allProjectData = [spriteFox, strawberryShopper, tempData2, tempData3]
 
 
 
