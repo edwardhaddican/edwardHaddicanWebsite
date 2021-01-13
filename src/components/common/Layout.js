@@ -20,7 +20,8 @@ import "../../styles/app.css";
  */
 const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
     const site = data.allGhostSettings.edges[0].node;
-    console.log(site);
+    // console.log("site in layour", site);
+
     site.title = "Edward Haddican"
     site.description = "My Portfolio Website"
     site.navigation = [
