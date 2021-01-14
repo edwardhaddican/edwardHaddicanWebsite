@@ -1,13 +1,15 @@
 import React from "react";
-import {SingleLecture} from "./index"
+import { SingleLecture } from "./index";
+import { allLectureData } from "../projectData/index";
 
 const AllLectures = () => {
     return (
-        <div>
-            <h1>All Lectures</h1>
-            <SingleLecture/>
-        </div>
+        <section className="post-feed">
+            {allLectureData.map((lecture) => (
+                <SingleLecture key={lecture.id} lecture={lecture} />
+            ))}
+        </section>
     );
 };
 
-export default AllLectures
+export default AllLectures;
