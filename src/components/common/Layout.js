@@ -22,7 +22,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
     const site = data.allGhostSettings.edges[0].node;
 
     site.title = "Edward Haddican"
-    site.description = "My Portfolio Website"
+    site.description = "Fullstack Software Engineer"
     site.navigation = [
         { label: "Home", url: "/" },
         { label: "Lectures", url: "/lectures" },
