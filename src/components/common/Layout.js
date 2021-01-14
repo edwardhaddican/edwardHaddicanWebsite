@@ -21,16 +21,16 @@ import "../../styles/app.css";
 const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
     const site = data.allGhostSettings.edges[0].node;
 
-    site.title = "Edward Haddican"
-    site.description = "Fullstack Software Engineer"
+    site.title = "Edward Haddican";
+    site.description = "Fullstack Software Engineer";
     site.navigation = [
         { label: "Home", url: "/" },
         { label: "Lectures", url: "/lectures" },
         { label: "Resume", url: "/resume" },
         { label: "Contact Me", url: "/contact" },
     ];
-    site.github = "https://github.com/edwardhaddican"
-    site.linkedin = "https://www.linkedin.com/in/edhaddican/"
+    site.github = "https://github.com/edwardhaddican";
+    site.linkedin = "https://www.linkedin.com/in/edhaddican/";
 
     const twitterUrl = site.twitter
         ? `https://twitter.com/${site.twitter.replace(/^@/, ``)}`
@@ -142,18 +142,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                     {/* The footer at the very bottom of the screen */}
                     <footer className="site-foot">
                         <div className="site-foot-nav container">
-                            <div className="site-foot-nav-left">
-                                <Link to="/">{site.title}</Link> © 2021 &mdash;
-                                Published with{" "}
-                                <a
-                                    className="site-foot-nav-item"
-                                    href="https://ghost.org"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    Ghost
-                                </a>
-                            </div>
+                            <div className="site-foot-nav-left"></div>
                             <div className="site-foot-nav-right">
                                 <Navigation
                                     data={site.navigation}
