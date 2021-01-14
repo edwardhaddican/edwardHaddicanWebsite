@@ -59,7 +59,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                         <div className="container">
                             <div className="site-mast">
                                 <div className="site-mast-left">
-                                    <Link to="/">
+                                    {/* <Link to="/">
                                         {site.logo ? (
                                             <img
                                                 className="site-logo"
@@ -75,7 +75,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                                 alt={site.title}
                                             />
                                         )}
-                                    </Link>
+                                    </Link> */}
                                 </div>
                                 <div className="site-mast-right">
                                     {site.twitter && (
@@ -106,7 +106,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                             />
                                         </a>
                                     )}
-                                    <a
+                                    {/* <a
                                         className="site-nav-item"
                                         href={`https://feedly.com/i/subscription/feed/${config.siteUrl}/rss/`}
                                         target="_blank"
@@ -117,7 +117,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                             src="/images/icons/rss.svg"
                                             alt="RSS Feed"
                                         />
-                                    </a>
+                                    </a> */}
                                 </div>
                             </div>
                             {isHome ? (
@@ -138,14 +138,6 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                         navClass="site-nav-item"
                                     />
                                 </div>
-                                <div className="site-nav-right">
-                                    <Link
-                                        className="site-nav-button"
-                                        to="/about"
-                                    >
-                                        About
-                                    </Link>
-                                </div>
                             </nav>
                         </div>
                     </header>
@@ -161,7 +153,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                     <footer className="site-foot">
                         <div className="site-foot-nav container">
                             <div className="site-foot-nav-left">
-                                <Link to="/">{site.title}</Link> © 2019 &mdash;
+                                <Link to="/">{site.title}</Link> © 2021 &mdash;
                                 Published with{" "}
                                 <a
                                     className="site-foot-nav-item"

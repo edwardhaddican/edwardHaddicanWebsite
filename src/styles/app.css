@@ -707,10 +707,12 @@ h6 {
     padding-right: 0;
 }
 
+/*site banner padding was set to 10vw 0 */
+
 .site-banner {
     max-width: 80%;
     margin: 0 auto;
-    padding: 10vw 0;
+    padding: 2vw 0;
     text-align: center;
 }
 
@@ -808,6 +810,7 @@ h6 {
 .post-card-excerpt {
     font-size: 1.6rem;
     line-height: 1.55em;
+    height: 10rem;
 }
 
 .post-card-image {
