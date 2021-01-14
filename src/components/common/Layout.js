@@ -20,7 +20,6 @@ import "../../styles/app.css";
  */
 const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
     const site = data.allGhostSettings.edges[0].node;
-    // console.log("site in layour", site);
 
     site.title = "Edward Haddican"
     site.description = "My Portfolio Website"
@@ -30,6 +29,9 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
         { label: "Resume", url: "/resume" },
         { label: "Contact Me", url: "/contact" },
     ];
+    site.github = "https://github.com/edwardhaddican"
+    site.linkedin = "https://www.linkedin.com/in/edhaddican/"
+
     const twitterUrl = site.twitter
         ? `https://twitter.com/${site.twitter.replace(/^@/, ``)}`
         : null;
@@ -78,9 +80,9 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                     </Link> */}
                                 </div>
                                 <div className="site-mast-right">
-                                    {site.twitter && (
+                                    {site.github && (
                                         <a
-                                            href={twitterUrl}
+                                            href={site.github}
                                             className="site-nav-item"
                                             target="_blank"
                                             rel="noopener noreferrer"
@@ -92,9 +94,9 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                             />
                                         </a>
                                     )}
-                                    {site.facebook && (
+                                    {site.linkedin && (
                                         <a
-                                            href={facebookUrl}
+                                            href={site.linkedin}
                                             className="site-nav-item"
                                             target="_blank"
                                             rel="noopener noreferrer"
@@ -106,18 +108,6 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                             />
                                         </a>
                                     )}
-                                    {/* <a
-                                        className="site-nav-item"
-                                        href={`https://feedly.com/i/subscription/feed/${config.siteUrl}/rss/`}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
-                                        <img
-                                            className="site-nav-icon"
-                                            src="/images/icons/rss.svg"
-                                            alt="RSS Feed"
-                                        />
-                                    </a> */}
                                 </div>
                             </div>
                             {isHome ? (
