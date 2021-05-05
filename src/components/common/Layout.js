@@ -3,6 +3,21 @@ import PropTypes from "prop-types";
 import { Helmet } from "react-helmet";
 import { Link, StaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
+// import { GitBranchOutline, LogoLinkedin } from 'react-ionicons'
+
+// {/* <GitBranchOutline
+//   color={'#00000'}
+//   title={}
+//   height="250px"
+//   width="250px"
+// /> */}
+
+// {/* <LogoLinkedin
+//   color={'#00000'}
+//   title={}
+//   height="250px"
+//   width="250px"
+// /> */}
 
 import { Navigation } from ".";
 import config from "../../utils/siteConfig";
@@ -89,8 +104,8 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                         >
                                             <img
                                                 className="site-nav-icon"
-                                                src="/images/icons/twitter.svg"
-                                                alt="Twitter"
+                                                src="/images/icons/github.png"
+                                                alt="Github"
                                             />
                                         </a>
                                     )}
@@ -103,8 +118,8 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                         >
                                             <img
                                                 className="site-nav-icon"
-                                                src="/images/icons/facebook.svg"
-                                                alt="Facebook"
+                                                src="/images/icons/linkedIn.jpeg"
+                                                alt="LinkedIn"
                                             />
                                         </a>
                                     )}
