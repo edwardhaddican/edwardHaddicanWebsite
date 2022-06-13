@@ -6,7 +6,7 @@ const spriteFox = {
     deployedLink: `https://spritefox.herokuapp.com/`,
     githubLink: `https://github.com/Lunch-Box-of-Culture/SpriteFox`,
     projectImage: `/images/projectImages/spritefox.png`,
-};
+}
 
 const strawberryShopper = {
     id: 2,
@@ -16,7 +16,7 @@ const strawberryShopper = {
     deployedLink: `http://strawberry-shopper.herokuapp.com/`,
     githubLink: `https://github.com/2003-Spectacular-Strawberries/Strawberry-Shopper`,
     projectImage: `https://hips.hearstapps.com/clv.h-cdn.co/assets/15/22/2560x1728/gallery-1432664914-strawberry-facts1.jpg?resize=768:*`,
-};
+}
 
 const spellBook = {
     id: 3,
@@ -26,7 +26,7 @@ const spellBook = {
     deployedLink: ``,
     githubLink: `https://github.com/edwardhaddican/Spellbook_V2`,
     projectImage: `/images/projectImages/spellbookImage.jpeg`,
-};
+}
 
 const cuteAnimalAPI = {
     id: 4,
@@ -36,7 +36,7 @@ const cuteAnimalAPI = {
     deployedLink: ``,
     githubLink: `https://github.com/edwardhaddican/cuteAnimalAPI`,
     projectImage: `https://s.abcnews.com/images/Lifestyle/ht_pudding_the_fox_03_mt_140821_16x9_992.jpg`,
-};
+}
 
 const carpathiaHouseSite = {
     id: 5,
@@ -46,7 +46,7 @@ const carpathiaHouseSite = {
     deployedLink: `https://carpathia.herokuapp.com/home`,
     githubLink: `https://github.com/edwardhaddican/CarpathiaHouseSite`,
     projectImage: `https://res.cloudinary.com/dwjilsieu/image/upload/v1655137425/CarpathiaHouseArms_ef4yfb.png`,
-};
+}
 
 const wrathAndGloryAPI = {
     id: 6,
@@ -56,7 +56,7 @@ const wrathAndGloryAPI = {
     deployedLink: `https://obscure-wave-78111.herokuapp.com/`,
     githubLink: ``,
     projectImage: `https://upload.wikimedia.org/wikipedia/commons/b/bb/For_the_love_of_waaagh_by_grundalug.jpg`,
-};
+}
 
 const wrathAndGloryFrontend = {
     id: 7,
@@ -66,7 +66,7 @@ const wrathAndGloryFrontend = {
     deployedLink: `https://wrath-and-glory-dashboard.herokuapp.com/`,
     githubLink: ``,
     projectImage: `https://res.cloudinary.com/dwjilsieu/image/upload/v1655137085/orkImageForFavicon_htipyd.png`,
-};
+}
 
 const cuteAnimalFrontend = {
     id: 8,
@@ -76,18 +76,7 @@ const cuteAnimalFrontend = {
     deployedLink: `https://young-plateau-45953.herokuapp.com/`,
     githubLink: `https://github.com/edwardhaddican/cuteAnimalQuoteApp`,
     projectImage: `https://res.cloudinary.com/dwjilsieu/image/upload/v1655137777/hqdefault_bmc9na.jpg`,
-};
-
-// const tempData2 = {
-//     id: 6,
-//     title: "Grumpy Fox",
-//     description: "Rabbit hole of foxes",
-//     role: "",
-//     deployedLink: "",
-//     githubLink: "",
-//     projectImage:
-//         "https://cdn.mos.cms.futurecdn.net/fFnYv6gLBY7aAJj2uYpQ6i-1024-80.jpg.webp",
-// };
+}
 
 const allProjectData = [
     carpathiaHouseSite,
@@ -98,6 +87,6 @@ const allProjectData = [
     spriteFox,
     wrathAndGloryAPI,
     wrathAndGloryFrontend,
-];
+]
 
-export default allProjectData;
+export default allProjectData

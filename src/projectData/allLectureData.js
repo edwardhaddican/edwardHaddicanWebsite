@@ -9,6 +9,6 @@ const introToJSLecture = {
     youtubeLink: ``,
 }
 
-const allLectureData = [introToJSLecture];
+const allLectureData = [introToJSLecture]
 
-export default allLectureData;
+export default allLectureData
