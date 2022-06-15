@@ -2,7 +2,6 @@ import React from "react";
 
 const PostCard = (props) => {
     const { project } = props;
-    console.log("props", project);
     return (
         <div>
             <header className="post-card-header">

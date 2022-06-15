@@ -17,7 +17,7 @@ import {allProjectData} from '../projectData/index'
 const Index = ({ data, location, pageContext }) => {
     const posts = data.allGhostPost.edges
     // console.log("posts in templates/index", posts)
-    console.log("allProjectData", allProjectData)
+    // console.log("allProjectData", allProjectData)
 
     return (
         <>
