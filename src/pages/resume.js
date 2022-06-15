@@ -7,7 +7,7 @@ const Resume = () => {
     const [numPages, setNumPages] = useState(null);
     const [pageNumber, setPageNumber] = useState(1);
 
-    console.log("myresume", myResume);
+
     function onDocumentLoadSuccess({ numPages }) {
         setNumPages(numPages);
     }
